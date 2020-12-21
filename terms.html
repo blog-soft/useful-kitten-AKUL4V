@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Terms and conditions</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="p-wrap">
+		<div class="nav">
+			<a href="index.html">Home</a>
+			<a href="privacy.html">Privacy Policy</a>
+		</div>
+		<div class="content">
+			<h1>Terms and conditions</h1>
+			
+			<p class="bold">Agreement between you, the user, and <span class="site_name">this site</span></p>
+
+			<p class="def-text">Welcome to <span class="site_name">site</span> is owned and operated by the <span class="site_name">site</span>  By using the Site, you agree to be bound by these Terms and Conditions and to use the Site in accordance with these Terms and Conditions, our Privacy Policy and any additional terms and conditions that may apply to specific sections of the Site or to products and services available through the Site or from the <span class="site_name">site</span>.</p>
+			<p class="def-text">A. PRIVACY POLICY. The <span class="site_name">site</span> respects your privacy and permits you to control the treatment of your personal information. Please review our Privacy Policy, which also governs the Site and informs users of our data collection practices.</p>
+			<p class="def-text">B. AGE. The <span class="site_name">site</span> does not knowingly collect, either online or offline, personal information from persons under the age of thirteen. The site is intended only for users aged 13 or older. Individuals under the age of 13 are strictly prohibited from creating an account on the site and the accounts for any such person shall be terminated upon detection.</p>
+			<p class="def-text">C. USER CONSCENT. To receive our newsletter or to contact us, we may ask you to provide certain information such as name and e-mail address. You agree to provide true, accurate, current and complete information about yourself as prompted by the Site’s registration form.</p>
+			<p class="def-text">D. VIOLATIONS. The <span class="site_name">site</span> and its associates reserve the right to refuse or cancel service, terminate accounts, or remove or edit content in our sole discretion.</p>
+			<p class="def-text">E. AFFILIATED SITES. <span class="site_name">site</span> has no control over, and no liability for any third party websites or materials. Neither <span class="site_name">site</span> nor the Site has control over the content and performance of these partner and affiliate sites, <span class="site_name">site</span> makes no guarantees about the accuracy, currency, content, or quality of the information provided by such sites, and we assume no responsibility for unintended, objectionable, inaccurate, misleading, or unlawful content that may reside on those sites.</p>
+			<p class="def-text">F. PROHIBITIONS. You are prohibited from violating or attempting to violate any security features of the Site or Service, including, without limitation, accessing content or data not intended for you, or logging onto a server or account that you are not authorised to access.</p>
+			<p class="def-text">G. INDEMNIFICATION. You agree to indemnify, defend, and hold harmless <span class="site_name">site</span> , its affiliates, officers, directors, employees, consultants, agents, and representatives from any and all third party claims, losses, liability, damages, and/or costs (including reasonable attorney fees and costs) arising from your access to or use of the Site.</p>
+
+		</div>
+	</div>
+	<style>
+
+		.p-wrap {
+			width: 80%;
+			margin: 0 auto;
+			padding: 50px 0;
+			font-family: 'f1A';
+			max-width: 800px;
+		}
+		.nav a {
+		    color: #444444;
+		    margin-right: 15px;
+		}
+		span.site_name {
+		    font-family: 'f1b';
+		}
+	</style>
+	<script>
+		let all = document.querySelectorAll(".site_name");
+		let host = document.location.host;
+
+		for(let i = 0; i < all.length; i++){
+			all[i].innerHTML = host;
+		}
+	</script>
+</body>
+</html>
